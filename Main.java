@@ -7,7 +7,7 @@ public class Main {
 
         Membre omar = new Membre("Omar");
 
-        System.out.println("Emprunt réussi ? " + biblio.emprunter(omar, "L'Étranger"));
+        System.out.println("Emprunt avec succes ? " + biblio.emprunter(omar, "L'Étranger"));
         System.out.println("Emprunt réussi ? " + biblio.emprunter(omar, "L'Étranger"));
 
         System.out.println("\nÉtat de la bibliothèque :");
